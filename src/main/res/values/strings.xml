@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MeteoApp</string>
+    <string name="choice">Entrez le nom d\'une ville française</string>
+    <string name="example">Exemple : Montpellier</string>
+    <string name="btn_load">Valider</string>
+    <string name="choice2">Ou</string>
+    <string name="btn_location">Me localiser</string>
+    <string name="btn_next">Jour suivant</string>
+    <string name="btn_previous">Jour précédent</string>
+    <string name="temp_min">Minimale</string>
+    <string name="temp_max">Maximale</string>
+    <string name="error">Ville non valide</string>
+    <string name="back">Retour</string>
+</resources>

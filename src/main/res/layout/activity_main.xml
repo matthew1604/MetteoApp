@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="50sp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-thin"
+        android:textColor="#FFFFFF"/>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFFFF"
+        android:text="@string/choice"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/input"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"
+        android:hint="@string/example"
+        android:textColorHint="#C8D6EE"
+        android:fontFamily="sans-serif-light"
+        android:textColor="#FFFFFF"/>
+
+    <Button
+        android:id="@+id/btn_load"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/custom_button"
+        android:enabled="false"
+        android:text="@string/btn_load"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="#FFFFFF"
+        android:text="@string/choice2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_location"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="70dp"
+        android:paddingHorizontal="10dp"
+        android:background="@drawable/custom_button"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

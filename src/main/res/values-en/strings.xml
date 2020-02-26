@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">MeteoApp</string>
+    <string name="choice">Enter a french city name</string>
+    <string name="example">Example : Montpellier</string>
+    <string name="btn_load">Submit</string>
+    <string name="choice2">Or</string>
+    <string name="btn_location">Localise me</string>
+    <string name="btn_next">Next day</string>
+    <string name="btn_previous">Previous day</string>
+    <string name="temp_min">Minimum</string>
+    <string name="temp_max">Maximum</string>
+    <string name="error">Invalid city</string>
+    <string name="back">Back</string>
+</resources>
